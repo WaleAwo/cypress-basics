@@ -1,0 +1,27 @@
+{
+  "name": "cypress-fundamentals",
+  "version": "1.0.0",
+  "description": "Cypress fundamentals",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress open --e2e --browser electron"
+  },
+  "keywords": [
+    "cypress",
+    "javascript",
+    "typescript",
+    "testing"
+  ],
+  "author": "Wale Awosile",
+  "license": "ISC",
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.5",
+    "@testing-library/cypress": "^10.0.1",
+    "cy-verify-downloads": "^0.2.2",
+    "cypress": "^13.5.1",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-plugin-xhr-toggle": "^1.0.0",
+    "cypress-real-events": "^1.11.0",
+    "typescript": "^5.2.2"
+  }
+}

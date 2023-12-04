@@ -1,0 +1,24 @@
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# TypeScript cache
+*.tsbuildinfo
+
+# MISC
+*.log
+
+# Ignore VSCode settings
+.vscode
+
+# Node modules
+node_modules/
+
+# Compiled TypeScript files
+dist/
+
+# Environmental configurations
+cypress.env.json
+
+# Ignore npm debug log
+npm-debug.log
