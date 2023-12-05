@@ -8,7 +8,6 @@ describe("API Testing", () => {
     cy.wrap(userId).as("userId"); // store user id as alias
   });
 
- 
   it("get an authorization token from the API", () => {
     cy.request("POST", `${Cypress.env("demoQA")}Account/v1/GenerateToken`, {
       userName: "jdoe",
@@ -18,7 +17,6 @@ describe("API Testing", () => {
       cy.wrap(token).as("token"); // store token value as alias
     });
   });
-
 
   it("get user information from the API", function () {
     // use alias to get values from previous tests
